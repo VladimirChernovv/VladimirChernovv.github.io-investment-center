@@ -1,0 +1,70 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+
+}
+
+.slick-list.draggable {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header__slider {
+	background-color: #cedeec;
+	
+	
+}
+
+.slider-item {
+	display: flex !important;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.market {
+	padding-top: 70px;
+	&__title {
+		font-weight: 800;
+		font-size: 35px;
+		line-height: 80px;
+	}
+}
+
+.services {
+
+	&__suptitle {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 80px;
+		text-transform: uppercase;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	&__subtitle {
+		font-weight: 900;
+		font-size: 25px;
+		line-height: 30px;
+		color: #FFFFFF;
+	}
+	&__benefit {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+	} 
+}
+
+
+
+@import "media";
