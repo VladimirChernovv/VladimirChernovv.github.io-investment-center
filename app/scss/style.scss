@@ -17,8 +17,7 @@
 }
 
 .header__slider {
-	background-color: #cedeec;
-	
+	background-color: #cedeec;	
 	
 }
 
@@ -38,32 +37,64 @@
 	&__title {
 		font-weight: 800;
 		font-size: 35px;
-		line-height: 80px;
 	}
 }
 
 .services {
-
-	&__suptitle {
-		font-weight: 500;
-		font-size: 12px;
-		line-height: 80px;
-		text-transform: uppercase;
-		color: rgba(255, 255, 255, 0.5);
+	margin-top: 41px;
+	display: flex;
+	justify-content: space-between;
+	&__card {
+		background: #acaccd url(../img/market/girl.png) no-repeat right bottom;
+    background-position: 100% 53%;
+		padding: 50px 197px 119px 30px;
+		width: 570px;
+			.services__suptitle {
+				font-weight: 500;
+				font-size: 12px;
+				text-transform: uppercase;
+				color: rgba(255, 255, 255, 0.5);
+			}
+			.services__subtitle {
+				font-weight: 900;
+				font-size: 25px;
+				color: #FFFFFF;
+				margin-top: 45px;
+			}
+			.services__benefit {
+				font-weight: 400;
+				font-size: 14px;
+				color: #FFFFFF;
+				text-transform: none;
+				margin-top: 16px;
+				line-height: 20px;
+			} 
 	}
-	&__subtitle {
-		font-weight: 900;
-		font-size: 25px;
-		line-height: 30px;
-		color: #FFFFFF;
+	.euro-card {
+		background: #bea08b url(../img/market/man.png) no-repeat right bottom;
+		padding-bottom: 139px; 
 	}
-	&__benefit {
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 20px;
-		color: #FFFFFF;
-	} 
+	&__request {
+		background-color: #f3f4f6;
+		width: 570px;
+		padding: 27px 30px 23px 29px;
+		display: flex;
+		justify-content: space-between;
+		.services__action {
+			font-weight: 500;
+			font-size: 18px;
+			color: #8890A1;
+			text-transform: none;
+		}
+		.services__arrow {
+			.services__img {
+				
+			}
+		}
+	}
 }
+
+
 
 
 
