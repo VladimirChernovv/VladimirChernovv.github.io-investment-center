@@ -43,7 +43,34 @@
 .services {
 	margin-top: 41px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
+	&__item:nth-child(1) {
+		margin-bottom: 55px;
+	}
+	&__item:nth-child(2) {
+		margin-bottom: 55px;
+	}
+
+	
+
+	.services__heading {
+		font-weight: 500;
+		font-size: 18px;
+		text-transform: none;
+		color: #FF5D39;
+		margin-bottom: 25px;
+		img {
+			margin-right: 5px;
+		}
+		span {
+			color: #8890A1;
+			margin-left: 4px;
+		}
+	}
+	.services__heading_euro{
+		margin-bottom: 20px;
+	}
 	&__card {
 		background: #acaccd url(../img/market/girl.png) no-repeat right bottom;
     background-position: 100% 53%;
@@ -68,7 +95,7 @@
 				text-transform: none;
 				margin-top: 16px;
 				line-height: 20px;
-			} 
+			}
 	}
 	.euro-card {
 		background: #bea08b url(../img/market/man.png) no-repeat right bottom;
