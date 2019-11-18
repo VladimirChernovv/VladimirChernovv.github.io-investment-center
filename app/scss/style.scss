@@ -97,6 +97,95 @@
 				line-height: 20px;
 			}
 	}
+
+	&__table {
+		border: 1px solid rgba(136, 144, 161, 0.2);
+		padding: 42px 29px 18px 25px;
+		th {
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 13px;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #8890A1;
+			border-bottom: 1px solid #e7e9ec;
+			padding-bottom: 12px;
+			padding-right: 44px;
+		}
+
+		td {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 18px;
+			color: #000000;
+			padding-top: 36px;
+			padding-bottom: 0;
+		}
+
+		.services__unit {
+			font-weight: 900;
+			font-size: 18px;
+			// line-height: 20px;
+			// letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #8890A1;
+		}
+	}
+
+	&__metals {
+		border: 1px solid #e7e9ec;
+		padding: 44px 29px 29px 27px;
+		.services__information {
+			display: flex;
+			font-weight: normal;
+			font-size: 12px;
+			// line-height: 13px;
+			// letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #8890A1;
+			border-bottom: 1px solid #e7e9ec;
+			padding-bottom: 12px;
+			justify-content: space-around;
+		}
+		.services__cell {
+			display: flex;
+			// align-items: center;
+			margin-top: 29px;
+			img {
+				margin-right: 41px;
+			}
+			.services__data {
+				font-weight: 400;
+				font-size: 18px;
+				color: #8890A1;
+				text-transform: none;
+				.services__george {
+					margin: 26px 0 15px 0;
+				}
+				.silver {
+					margin-top: 24px;
+				}
+				span {
+					font-weight: 500;
+					color: #000;
+				}
+				.services__value {
+					margin-right: 101px;
+				}
+				.services__buy {
+					margin-right: 55px
+				}
+				.left {
+					margin-right: 92px;
+				}
+			}
+		}
+	}
+
+	.lower {
+			margin-top: 25px;
+	}
+
 	.euro-card {
 		background: #bea08b url(../img/market/man.png) no-repeat right bottom;
 		padding-bottom: 139px; 
@@ -104,9 +193,10 @@
 	&__request {
 		background-color: #f3f4f6;
 		width: 570px;
-		padding: 27px 30px 23px 29px;
+		padding: 26px 30px 22px 29px;
 		display: flex;
 		justify-content: space-between;
+		border: 1px solid #e7e9ec;
 		.services__action {
 			font-weight: 500;
 			font-size: 18px;
