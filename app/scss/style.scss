@@ -116,14 +116,18 @@
 }
 
 .slider-item {
+	background-position: 107% 98%;
+	background-repeat: no-repeat;
 	display: flex !important;
 	justify-content: space-between;
 	// height: 100vh;
 	align-items: center;
 	position: relative;
-	// padding-top: 61px;
 	padding-top: 83px;
-  padding-bottom: 135px;
+	padding-bottom: 135px;
+	&__info {
+		position: relative;
+	}
 	
 	&__info-title {
 		font-weight: 900;
@@ -160,35 +164,26 @@
 .slick-dots {
 	display: flex;
 	position: absolute;
-	width: 100%;
-	padding: 0;
-	margin-top: 24px;
-	list-style: none;
-	li {
-		display: inline-block;
-		margin: 0 5px;
-		button {
-			position: relative;
+	bottom: 96px;
+  left: 175px;
+}
+
+.slick-dots li button {
 			width: 10px;
 			height: 10px;
-			border-radius: 50%;
 			padding: 5px;
+			margin-right: 9px;
+			border-radius: 50%;
 			color: #c0cedd;
 			background-color: #c0cedd;
 			border: none;
 			outline: none;
 			cursor: pointer;
-		}
-	}
-	li:first-child {
-			margin-left: 0;
-		}
+			font-size: 0;
 }
-
-// .container {
-// 	max-width: 1170px;
-// 	margin: auto;
-// }
+.slick-dots .slick-active button {
+	background-color: #003DB1;
+}
 
 .market {
 	margin-top: 22px;
