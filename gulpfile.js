@@ -59,7 +59,7 @@ gulp.task('browser-sync', function() {
           baseDir: "app/"
       }
   });
-});
+});  
 
 gulp.task('export', function(){
   let buildHtml = gulp.src('app/**/*.html')
