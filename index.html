@@ -9,15 +9,54 @@
 </head>
 <body>
   
-  
   <header class="header">
     <div class="header__top-block">
       <div class="container">
         <div class="header__cell">
           <div class="header__info">
             <a class="header__logo" href="#">B</a>
-            <a class="header__bank private" href="#">PRIVATE BANKING</a>
-            <a class="header__bank" href="#">О банке</a>
+            <ul  class="header__sup-menu">
+              <li id="nav" class="header__sup-item">
+                <a  class="header__bank private" href="#">PRIVATE BANKING</a>
+              </li>
+              <li class="header__sup-item">
+                <a class="header__bank bank" href="#">О банке</a>
+                <div class="submenu">
+                  <div class="container">
+                    <div class="submenu__wrap">
+
+                      <ul class="submenu__list">
+                        <li class="submenu__list-item upper-link">
+                          <a class="submenu__list-link " href="#">Для юридических лиц</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">Резервный канал</a>
+                        </li>
+                      </ul>
+
+                      <ul class="submenu__list">
+                        <li class="submenu__list-item upper-link">
+                          <a class="submenu__list-link" href="#">Для частных клиентов</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">Личный кабинет инвестора</a>
+                        </li>
+                      </ul>
+
+                      <ul class="submenu__list">
+                        <li class="submenu__list-item upper-link">
+                          <a class="submenu__list-link" href="#">Перевод с карты на карту</a>
+                        </li>
+                        <li class="submenu__list-item">
+                          <a class="submenu__list-link" href="#">Samsung Pay</a>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
           <div class="header__address">
             <a class="header__data" href="#">Офисы и банкоматы</a>
@@ -34,6 +73,50 @@
             <ul class="header__list">
               <li class="header__line">
                 <a class="header__link clients" href="#">Частным клиентам</a>
+                <div class="submenu">
+                  <div class="container">
+                    <div class="submenu__wrap lower-wrap">
+
+                      <ul class="submenu__list lower-list">
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Платежный сервис</a>
+                        </li>
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Монеты</a>
+                        </li>
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Вклады</a>
+                        </li>
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Банковские карты</a>
+                        </li>
+                      </ul>
+
+                      <ul class="submenu__list lower-list">
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Кредитование физических лиц</a>
+                        </li>
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Операции с наличной иностранной<br> валютой</a>
+                        </li>
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Тарифы</a>
+                        </li>
+                        <li class="submenu__list-item lower-item">
+                          <a class="submenu__list-link" href="#">Текущие щета</a>
+                        </li>
+                      </ul>
+
+                      <div class="submenu__card">
+                        <!-- <div class="submenu__card-photo"></div> -->
+                        <img src="../img/menu/card-man.png" alt="card-man">
+                        <p class="submenu__card-text">Интернет-банк для частных лиц</p>
+                        <a class="btn card-btn" href="#">Войти в личный кабинет</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
               </li>
               <li class="header__line">
                 <a class="header__link corporate" href="#">Корпоративным клиентам</a>
@@ -50,8 +133,6 @@
     
      <div class="header__slider">
 
-     
-
         <div class="header__slider-item slider-item container" style="background-image: url(../img/header/man-bg.png);">
           <div class="slider-item__info">
             <h1 class="slider-item__info-title">Центр для успешных инвестиций</h1>
@@ -59,6 +140,7 @@
               Вы сможете выплатить банковский долг, даже в случае неблагоприятных жизненных обстоятельств.
             </p>
             <a class="btn upper" href="#">Подать заявку</a>
+            
           </div>
           <!-- <img class="slider-item__photo" src="../img/header/man-bg.png" alt="photo"> -->
         </div>
@@ -85,8 +167,6 @@
           </div>
           <!-- <img class="slider-item__photo" src="../img/header/man-bg.png" alt="photo"> -->
         </div>
-
-      
 
      </div>
     
